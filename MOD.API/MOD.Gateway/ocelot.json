@@ -1,0 +1,110 @@
+{
+  "ReRoutes": [
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/technology/",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/Technology/",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ],
+      "ServiceName": "techapi",
+      "ReRoutesCaseSensitive": false
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/technology/{catchAll}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/Technology/{catchAll}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "ServiceName": "techapi",
+      "ReRoutesCaseSensitive": false
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/user/",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/User/",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "ServiceName": "user-api",
+      "ReRoutesCaseSensitive": false
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/user/{catchAll}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/User/{catchAll}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "ServiceName": "user-api",
+      "ReRoutesCaseSensitive": false
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/training/",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/Training/",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "ServiceName": "training-api",
+      "ReRoutesCaseSensitive": false
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/training/{catchAll}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/Training/{catchAll}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "ServiceName": "training-api",
+      "ReRoutesCaseSensitive": false
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/authentication/",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/Authentication/",
+      "UpstreamHttpMethod": [ "POST" ],
+      "ServiceName": "authentication-api",
+      "ReRoutesCaseSensitive": false
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/payment/",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/Payment/",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "ServiceName": "payment-api",
+      "ReRoutesCaseSensitive": false
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/payment/{catchAll}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/Payment/{catchAll}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "ServiceName": "payment-api",
+      "ReRoutesCaseSensitive": false
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/search/",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/Search/",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "ServiceName": "search-api",
+      "ReRoutesCaseSensitive": false
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/search/{catchAll}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/Search/{catchAll}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "ServiceName": "search-api",
+      "ReRoutesCaseSensitive": false
+    }
+  ],
+  "GlobalConfiguration": {
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "Consul"
+    }
+  }
+}
