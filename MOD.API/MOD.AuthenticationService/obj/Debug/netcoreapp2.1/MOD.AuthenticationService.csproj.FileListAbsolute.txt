@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\MOD.API\MOD.AuthenticationService\bin\Debug\netcoreapp2.1\MOD.AuthenticationService.deps.json
+C:\Users\Admin\source\repos\MOD.API\MOD.AuthenticationService\bin\Debug\netcoreapp2.1\MOD.AuthenticationService.runtimeconfig.json
+C:\Users\Admin\source\repos\MOD.API\MOD.AuthenticationService\bin\Debug\netcoreapp2.1\MOD.AuthenticationService.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\MOD.API\MOD.AuthenticationService\bin\Debug\netcoreapp2.1\MOD.AuthenticationService.dll
+C:\Users\Admin\source\repos\MOD.API\MOD.AuthenticationService\bin\Debug\netcoreapp2.1\MOD.AuthenticationService.pdb
+C:\Users\Admin\source\repos\MOD.API\MOD.AuthenticationService\obj\Debug\netcoreapp2.1\MOD.AuthenticationService.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.AuthenticationService\obj\Debug\netcoreapp2.1\MOD.AuthenticationService.RazorAssemblyInfo.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.AuthenticationService\obj\Debug\netcoreapp2.1\MOD.AuthenticationService.RazorAssemblyInfo.cs
+C:\Users\Admin\source\repos\MOD.API\MOD.AuthenticationService\obj\Debug\netcoreapp2.1\MOD.AuthenticationService.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.AuthenticationService\obj\Debug\netcoreapp2.1\MOD.AuthenticationService.AssemblyInfo.cs
+C:\Users\Admin\source\repos\MOD.API\MOD.AuthenticationService\obj\Debug\netcoreapp2.1\MOD.AuthenticationService.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.AuthenticationService\obj\Debug\netcoreapp2.1\MOD.AuthenticationService.dll
+C:\Users\Admin\source\repos\MOD.API\MOD.AuthenticationService\obj\Debug\netcoreapp2.1\MOD.AuthenticationService.pdb
+C:\Users\Admin\source\repos\MOD.API\MOD.AuthenticationService\bin\Debug\netcoreapp2.1\nlog.config

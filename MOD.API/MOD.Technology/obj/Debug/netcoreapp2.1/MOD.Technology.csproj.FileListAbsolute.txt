@@ -1,0 +1,14 @@
+c:\users\admin\source\repos\MOD.API\MOD.Technology\bin\Debug\netcoreapp2.1\MOD.Technology.deps.json
+c:\users\admin\source\repos\MOD.API\MOD.Technology\bin\Debug\netcoreapp2.1\MOD.Technology.runtimeconfig.json
+c:\users\admin\source\repos\MOD.API\MOD.Technology\bin\Debug\netcoreapp2.1\MOD.Technology.runtimeconfig.dev.json
+c:\users\admin\source\repos\MOD.API\MOD.Technology\bin\Debug\netcoreapp2.1\MOD.Technology.dll
+c:\users\admin\source\repos\MOD.API\MOD.Technology\bin\Debug\netcoreapp2.1\MOD.Technology.pdb
+c:\users\admin\source\repos\MOD.API\MOD.Technology\obj\Debug\netcoreapp2.1\MOD.Technology.csprojAssemblyReference.cache
+c:\users\admin\source\repos\MOD.API\MOD.Technology\obj\Debug\netcoreapp2.1\MOD.Technology.csproj.CoreCompileInputs.cache
+c:\users\admin\source\repos\MOD.API\MOD.Technology\obj\Debug\netcoreapp2.1\MOD.Technology.RazorAssemblyInfo.cache
+c:\users\admin\source\repos\MOD.API\MOD.Technology\obj\Debug\netcoreapp2.1\MOD.Technology.RazorAssemblyInfo.cs
+c:\users\admin\source\repos\MOD.API\MOD.Technology\obj\Debug\netcoreapp2.1\MOD.Technology.AssemblyInfoInputs.cache
+c:\users\admin\source\repos\MOD.API\MOD.Technology\obj\Debug\netcoreapp2.1\MOD.Technology.AssemblyInfo.cs
+c:\users\admin\source\repos\MOD.API\MOD.Technology\obj\Debug\netcoreapp2.1\MOD.Technology.RazorTargetAssemblyInfo.cache
+c:\users\admin\source\repos\MOD.API\MOD.Technology\obj\Debug\netcoreapp2.1\MOD.Technology.dll
+c:\users\admin\source\repos\MOD.API\MOD.Technology\obj\Debug\netcoreapp2.1\MOD.Technology.pdb

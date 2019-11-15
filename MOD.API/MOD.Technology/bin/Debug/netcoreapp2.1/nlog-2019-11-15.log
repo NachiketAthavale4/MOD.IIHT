@@ -1,0 +1,177 @@
+2019-11-15 00:02:01.6945|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-15 00:02:02.4174|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology  
+2019-11-15 00:02:02.4248|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology  
+2019-11-15 00:02:02.6341|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-15 00:02:02.6341|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-15 00:02:02.6487|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-15 00:02:02.6487|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-15 00:02:02.6487|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-15 00:02:02.6487|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-15 00:02:02.6583|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-15 00:02:02.6583|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-15 00:02:02.6583|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-15 00:02:02.6706|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-15 00:02:02.6706|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 35.3396ms
+2019-11-15 00:02:02.6706|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 35.3396ms
+2019-11-15 00:02:02.6897|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 272.4377ms 401 
+2019-11-15 00:02:02.6897|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 272.4377ms 401 
+2019-11-15 00:02:08.9941|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology/ application/json 48
+2019-11-15 00:02:08.9941|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology/ application/json 48
+2019-11-15 00:02:09.1077|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Failed to validate the token.
+2019-11-15 00:02:09.1096|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Failed to validate the token.
+2019-11-15 00:02:09.1096|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '11/14/2019 14:35:42', Current time: '11/14/2019 18:32:09'.
+2019-11-15 00:02:09.1096|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '11/14/2019 14:35:42', Current time: '11/14/2019 18:32:09'.
+2019-11-15 00:02:09.1096|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-15 00:02:09.1096|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-15 00:02:09.1269|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-15 00:02:09.1269|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-15 00:02:09.1269|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-15 00:02:09.1269|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-15 00:02:09.1269|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-15 00:02:09.1269|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-15 00:02:09.1512|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-15 00:02:09.1512|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-15 00:02:09.1512|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 33.2092ms
+2019-11-15 00:02:09.1552|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 33.2092ms
+2019-11-15 00:02:09.1552|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 163.5696ms 401 
+2019-11-15 00:02:09.1552|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 163.5696ms 401 
+2019-11-15 00:02:09.1708|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR963OIM00E", Request id "0HLR963OIM00E:00000001": the application completed without reading the entire request body.
+2019-11-15 00:02:09.1708|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR963OIM00E", Request id "0HLR963OIM00E:00000001": the application completed without reading the entire request body.
+2019-11-15 00:06:07.1579|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-15 00:06:07.7913|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology  
+2019-11-15 00:06:07.7985|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology  
+2019-11-15 00:06:08.0579|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-15 00:06:08.0579|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-15 00:06:08.0764|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-15 00:06:08.0764|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-15 00:06:08.0764|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-15 00:06:08.0764|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-15 00:06:08.0764|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-15 00:06:08.0764|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-15 00:06:08.0929|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-15 00:06:08.0929|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-15 00:06:08.0929|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 34.3871ms
+2019-11-15 00:06:08.0929|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 34.3871ms
+2019-11-15 00:06:08.1125|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 321.6258ms 401 
+2019-11-15 00:06:08.1125|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 321.6258ms 401 
+2019-11-15 00:08:26.2264|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-15 00:08:27.0730|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology  
+2019-11-15 00:08:27.0800|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology  
+2019-11-15 00:08:27.3062|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-15 00:08:27.3062|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-15 00:08:27.3204|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-15 00:08:27.3204|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-15 00:08:27.3204|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-15 00:08:27.3204|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-15 00:08:27.3302|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-15 00:08:27.3302|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-15 00:08:27.3302|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-15 00:08:27.3302|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-15 00:08:27.3465|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 31.9028ms
+2019-11-15 00:08:27.3465|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 31.9028ms
+2019-11-15 00:08:27.3639|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 290.2286ms 401 
+2019-11-15 00:08:27.3639|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 290.2286ms 401 
+2019-11-15 00:12:48.5892|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-15 00:12:49.4574|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology  
+2019-11-15 00:12:49.4574|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology  
+2019-11-15 00:12:49.6798|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-15 00:12:49.6798|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-15 00:12:49.6940|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-15 00:12:49.6940|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-15 00:12:49.6940|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-15 00:12:49.6940|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-15 00:12:49.7066|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-15 00:12:49.7066|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-15 00:12:49.7066|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-15 00:12:49.7181|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-15 00:12:49.7181|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 37.4236ms
+2019-11-15 00:12:49.7181|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 37.4236ms
+2019-11-15 00:12:49.7411|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 281.2993ms 401 
+2019-11-15 00:12:49.7411|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 281.2993ms 401 
+2019-11-15 00:22:35.9154|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-15 00:22:36.8633|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology  
+2019-11-15 00:22:36.8633|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology  
+2019-11-15 00:22:37.0825|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-15 00:22:37.0825|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-15 00:22:37.0953|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-15 00:22:37.0953|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-15 00:22:37.0953|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-15 00:22:37.0953|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-15 00:22:37.0953|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-15 00:22:37.0953|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-15 00:22:37.1119|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-15 00:22:37.1119|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-15 00:22:37.1119|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 29.7091ms
+2019-11-15 00:22:37.1119|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 29.7091ms
+2019-11-15 00:22:37.1328|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 269.1445ms 401 
+2019-11-15 00:22:37.1328|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 269.1445ms 401 
+2019-11-15 00:35:01.2408|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-15 00:35:01.5819|FATAL|Microsoft.AspNetCore.Server.Kestrel|Unable to start Kestrel.
+2019-11-15 00:35:01.5819|FATAL|Microsoft.AspNetCore.Server.Kestrel|Unable to start Kestrel.
+2019-11-15 00:35:01.6648|FATAL|Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor|An error occurred stopping the application
+2019-11-15 00:35:01.6648|FATAL|Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor|An error occurred stopping the application
+2019-11-15 00:36:52.8243|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-15 00:38:06.9271|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-15 00:38:07.7848|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology  
+2019-11-15 00:38:07.7848|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology  
+2019-11-15 00:38:08.0067|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-15 00:38:08.0067|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-15 00:38:08.0197|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-15 00:38:08.0197|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-15 00:38:08.0197|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-15 00:38:08.0197|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-15 00:38:08.0295|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-15 00:38:08.0295|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-15 00:38:08.0295|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-15 00:38:08.0295|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-15 00:38:08.0462|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 33.6266ms
+2019-11-15 00:38:08.0462|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 33.6266ms
+2019-11-15 00:38:08.0648|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 278.755ms 401 
+2019-11-15 00:38:08.0648|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 278.755ms 401 
+2019-11-15 00:44:20.4494|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-15 00:44:21.0930|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology  
+2019-11-15 00:44:21.0930|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology  
+2019-11-15 00:44:21.3816|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-15 00:44:21.3816|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-15 00:44:21.3963|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-15 00:44:21.3963|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-15 00:44:21.3963|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-15 00:44:21.3963|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-15 00:44:21.4088|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-15 00:44:21.4088|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-15 00:44:21.4088|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-15 00:44:21.4088|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-15 00:44:21.4247|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 36.5527ms
+2019-11-15 00:44:21.4247|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 36.5527ms
+2019-11-15 00:44:21.4389|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 346.5128ms 401 
+2019-11-15 00:44:21.4389|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 346.5128ms 401 
+2019-11-15 00:44:33.2533|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology/ application/json 48
+2019-11-15 00:44:33.2533|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology/ application/json 48
+2019-11-15 00:44:33.2775|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-15 00:44:33.2775|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-15 00:44:33.2830|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-15 00:44:33.2830|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-15 00:44:33.2830|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-15 00:44:33.2830|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-15 00:44:45.4835|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) - Validation state: Valid
+2019-11-15 00:44:45.4835|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) - Validation state: Valid
+2019-11-15 00:44:46.2528|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'TechnologyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-15 00:44:46.2528|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'TechnologyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-15 00:44:46.4401|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name], [t].[Prerequisites], [t].[Toc]
+FROM [Technologies] AS [t]
+2019-11-15 00:44:46.4401|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name], [t].[Prerequisites], [t].[Toc]
+FROM [Technologies] AS [t]
+2019-11-15 00:44:46.4822|INFO|MOD.TechnologyService.Controllers.TechnologyController|SuccessIndicator = true
+2019-11-15 00:44:46.4834|INFO|MOD.TechnologyService.Controllers.TechnologyController|SuccessIndicator = true
+2019-11-15 00:44:46.4834|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 997.9116ms.
+2019-11-15 00:44:46.4834|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 997.9116ms.
+2019-11-15 00:44:46.5002|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.TechnologyService.Models.TechnologyResponse'.
+2019-11-15 00:44:46.5002|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.TechnologyService.Models.TechnologyResponse'.
+2019-11-15 00:44:46.5148|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 13228.1506ms
+2019-11-15 00:44:46.5148|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 13228.1506ms
+2019-11-15 00:44:46.5148|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13272.6717ms 200 application/json; charset=utf-8
+2019-11-15 00:44:46.5299|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13272.6717ms 200 application/json; charset=utf-8
+2019-11-15 00:44:46.5299|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR96RD54P95", Request id "0HLR96RD54P95:00000001": the application completed without reading the entire request body.
+2019-11-15 00:44:46.5299|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR96RD54P95", Request id "0HLR96RD54P95:00000001": the application completed without reading the entire request body.

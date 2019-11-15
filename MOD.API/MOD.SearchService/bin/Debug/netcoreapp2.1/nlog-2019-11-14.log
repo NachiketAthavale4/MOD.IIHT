@@ -1,0 +1,37 @@
+2019-11-14 18:15:04.7258|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-14 18:15:06.9578|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5005/api/search  
+2019-11-14 18:15:06.9699|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5005/api/search  
+2019-11-14 18:15:07.1123|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 154.4358ms 404 
+2019-11-14 18:15:07.1123|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 154.4358ms 404 
+2019-11-14 18:15:11.3849|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5005/api/search/C  
+2019-11-14 18:15:11.3849|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5005/api/search/C  
+2019-11-14 18:15:11.4340|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Search"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.SearchService.Models.SearchResponse]] Get(System.String) on controller MOD.SearchService.Controllers.SearchController (MOD.SearchService).
+2019-11-14 18:15:11.4340|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Search"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.SearchService.Models.SearchResponse]] Get(System.String) on controller MOD.SearchService.Controllers.SearchController (MOD.SearchService).
+2019-11-14 18:15:13.0288|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.SearchService.Controllers.SearchController.Get (MOD.SearchService) - Validation state: Valid
+2019-11-14 18:15:13.0288|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.SearchService.Controllers.SearchController.Get (MOD.SearchService) - Validation state: Valid
+2019-11-14 18:15:13.4044|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'SearchContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 18:15:13.4044|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'SearchContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 18:15:13.6593|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (31ms) [Parameters=[@__ToUpper_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [train].[Id], [train].[AmountReceived], [train].[AverageRating], [train].[CommisionAmount], [train].[EndDate], [train].[EndTime], [train].[Fees], [train].[MentorId], [train].[MentorName], [train].[Progress], [train].[Rating], [train].[StartDate], [train].[StartTime], [train].[Status], [train].[TechnologyId], [train].[TechnologyName], [train].[UserId], [train].[UserName]
+FROM [Technologies] AS [tech]
+INNER JOIN [Training] AS [train] ON [tech].[Id] = [train].[TechnologyId]
+WHERE (CHARINDEX(@__ToUpper_0, UPPER([tech].[Name])) > 0) OR (@__ToUpper_0 = N'')
+2019-11-14 18:15:13.6593|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (31ms) [Parameters=[@__ToUpper_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [train].[Id], [train].[AmountReceived], [train].[AverageRating], [train].[CommisionAmount], [train].[EndDate], [train].[EndTime], [train].[Fees], [train].[MentorId], [train].[MentorName], [train].[Progress], [train].[Rating], [train].[StartDate], [train].[StartTime], [train].[Status], [train].[TechnologyId], [train].[TechnologyName], [train].[UserId], [train].[UserName]
+FROM [Technologies] AS [tech]
+INNER JOIN [Training] AS [train] ON [tech].[Id] = [train].[TechnologyId]
+WHERE (CHARINDEX(@__ToUpper_0, UPPER([tech].[Name])) > 0) OR (@__ToUpper_0 = N'')
+2019-11-14 18:15:13.7263|INFO|MOD.SearchService.Controllers.SearchController|SuccessIndicator = true
+2019-11-14 18:15:13.7276|INFO|MOD.SearchService.Controllers.SearchController|SuccessIndicator = true
+2019-11-14 18:15:13.7276|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.SearchService.Controllers.SearchController.Get (MOD.SearchService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 698.3922ms.
+2019-11-14 18:15:13.7276|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.SearchService.Controllers.SearchController.Get (MOD.SearchService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 698.3922ms.
+2019-11-14 18:15:13.7456|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MOD.SearchService.Models.Training, MOD.SearchService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-11-14 18:15:13.7456|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MOD.SearchService.Models.Training, MOD.SearchService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-11-14 18:15:13.7684|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.SearchService.Controllers.SearchController.Get (MOD.SearchService) in 2326.118ms
+2019-11-14 18:15:13.7684|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.SearchService.Controllers.SearchController.Get (MOD.SearchService) in 2326.118ms
+2019-11-14 18:15:13.7781|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2395.126ms 200 application/json; charset=utf-8
+2019-11-14 18:15:13.7781|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2395.126ms 200 application/json; charset=utf-8
+2019-11-14 18:15:13.7916|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5005/favicon.ico  
+2019-11-14 18:15:13.7916|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5005/favicon.ico  
+2019-11-14 18:15:13.7916|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.5926ms 404 
+2019-11-14 18:15:13.7916|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.5926ms 404 

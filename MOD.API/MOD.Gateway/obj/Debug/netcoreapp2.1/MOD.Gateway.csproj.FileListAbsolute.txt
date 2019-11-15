@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\MOD.API\MOD.Gateway\bin\Debug\netcoreapp2.1\MOD.Gateway.deps.json
+C:\Users\Admin\source\repos\MOD.API\MOD.Gateway\bin\Debug\netcoreapp2.1\MOD.Gateway.runtimeconfig.json
+C:\Users\Admin\source\repos\MOD.API\MOD.Gateway\bin\Debug\netcoreapp2.1\MOD.Gateway.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\MOD.API\MOD.Gateway\bin\Debug\netcoreapp2.1\MOD.Gateway.dll
+C:\Users\Admin\source\repos\MOD.API\MOD.Gateway\bin\Debug\netcoreapp2.1\MOD.Gateway.pdb
+C:\Users\Admin\source\repos\MOD.API\MOD.Gateway\obj\Debug\netcoreapp2.1\MOD.Gateway.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.Gateway\obj\Debug\netcoreapp2.1\MOD.Gateway.RazorAssemblyInfo.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.Gateway\obj\Debug\netcoreapp2.1\MOD.Gateway.RazorAssemblyInfo.cs
+C:\Users\Admin\source\repos\MOD.API\MOD.Gateway\obj\Debug\netcoreapp2.1\MOD.Gateway.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.Gateway\obj\Debug\netcoreapp2.1\MOD.Gateway.AssemblyInfo.cs
+C:\Users\Admin\source\repos\MOD.API\MOD.Gateway\obj\Debug\netcoreapp2.1\MOD.Gateway.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.Gateway\obj\Debug\netcoreapp2.1\MOD.Gateway.dll
+C:\Users\Admin\source\repos\MOD.API\MOD.Gateway\obj\Debug\netcoreapp2.1\MOD.Gateway.pdb
+C:\Users\Admin\source\repos\MOD.API\MOD.Gateway\obj\Debug\netcoreapp2.1\MOD.Gateway.csprojAssemblyReference.cache

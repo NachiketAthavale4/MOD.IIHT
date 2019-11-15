@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\MOD.API\MOD.SearchService\bin\Debug\netcoreapp2.1\MOD.SearchService.deps.json
+C:\Users\Admin\source\repos\MOD.API\MOD.SearchService\bin\Debug\netcoreapp2.1\MOD.SearchService.runtimeconfig.json
+C:\Users\Admin\source\repos\MOD.API\MOD.SearchService\bin\Debug\netcoreapp2.1\MOD.SearchService.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\MOD.API\MOD.SearchService\bin\Debug\netcoreapp2.1\MOD.SearchService.dll
+C:\Users\Admin\source\repos\MOD.API\MOD.SearchService\bin\Debug\netcoreapp2.1\MOD.SearchService.pdb
+C:\Users\Admin\source\repos\MOD.API\MOD.SearchService\obj\Debug\netcoreapp2.1\MOD.SearchService.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.SearchService\obj\Debug\netcoreapp2.1\MOD.SearchService.RazorAssemblyInfo.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.SearchService\obj\Debug\netcoreapp2.1\MOD.SearchService.RazorAssemblyInfo.cs
+C:\Users\Admin\source\repos\MOD.API\MOD.SearchService\obj\Debug\netcoreapp2.1\MOD.SearchService.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.SearchService\obj\Debug\netcoreapp2.1\MOD.SearchService.AssemblyInfo.cs
+C:\Users\Admin\source\repos\MOD.API\MOD.SearchService\obj\Debug\netcoreapp2.1\MOD.SearchService.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.SearchService\obj\Debug\netcoreapp2.1\MOD.SearchService.dll
+C:\Users\Admin\source\repos\MOD.API\MOD.SearchService\obj\Debug\netcoreapp2.1\MOD.SearchService.pdb
+C:\Users\Admin\source\repos\MOD.API\MOD.SearchService\bin\Debug\netcoreapp2.1\nlog.config

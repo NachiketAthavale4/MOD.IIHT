@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\MOD.API\MOD.UserService\bin\Debug\netcoreapp2.1\MOD.UserService.deps.json
+C:\Users\Admin\source\repos\MOD.API\MOD.UserService\bin\Debug\netcoreapp2.1\MOD.UserService.runtimeconfig.json
+C:\Users\Admin\source\repos\MOD.API\MOD.UserService\bin\Debug\netcoreapp2.1\MOD.UserService.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\MOD.API\MOD.UserService\bin\Debug\netcoreapp2.1\MOD.UserService.dll
+C:\Users\Admin\source\repos\MOD.API\MOD.UserService\bin\Debug\netcoreapp2.1\MOD.UserService.pdb
+C:\Users\Admin\source\repos\MOD.API\MOD.UserService\obj\Debug\netcoreapp2.1\MOD.UserService.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.UserService\obj\Debug\netcoreapp2.1\MOD.UserService.RazorAssemblyInfo.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.UserService\obj\Debug\netcoreapp2.1\MOD.UserService.RazorAssemblyInfo.cs
+C:\Users\Admin\source\repos\MOD.API\MOD.UserService\obj\Debug\netcoreapp2.1\MOD.UserService.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.UserService\obj\Debug\netcoreapp2.1\MOD.UserService.AssemblyInfo.cs
+C:\Users\Admin\source\repos\MOD.API\MOD.UserService\obj\Debug\netcoreapp2.1\MOD.UserService.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.UserService\obj\Debug\netcoreapp2.1\MOD.UserService.dll
+C:\Users\Admin\source\repos\MOD.API\MOD.UserService\obj\Debug\netcoreapp2.1\MOD.UserService.pdb
+C:\Users\Admin\source\repos\MOD.API\MOD.UserService\bin\Debug\netcoreapp2.1\nlog.config

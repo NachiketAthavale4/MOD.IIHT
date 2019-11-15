@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\MOD.API\MOD.TrainingService\bin\Debug\netcoreapp2.1\MOD.TrainingService.deps.json
+C:\Users\Admin\source\repos\MOD.API\MOD.TrainingService\bin\Debug\netcoreapp2.1\MOD.TrainingService.runtimeconfig.json
+C:\Users\Admin\source\repos\MOD.API\MOD.TrainingService\bin\Debug\netcoreapp2.1\MOD.TrainingService.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\MOD.API\MOD.TrainingService\bin\Debug\netcoreapp2.1\MOD.TrainingService.dll
+C:\Users\Admin\source\repos\MOD.API\MOD.TrainingService\bin\Debug\netcoreapp2.1\MOD.TrainingService.pdb
+C:\Users\Admin\source\repos\MOD.API\MOD.TrainingService\obj\Debug\netcoreapp2.1\MOD.TrainingService.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.TrainingService\obj\Debug\netcoreapp2.1\MOD.TrainingService.RazorAssemblyInfo.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.TrainingService\obj\Debug\netcoreapp2.1\MOD.TrainingService.RazorAssemblyInfo.cs
+C:\Users\Admin\source\repos\MOD.API\MOD.TrainingService\obj\Debug\netcoreapp2.1\MOD.TrainingService.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.TrainingService\obj\Debug\netcoreapp2.1\MOD.TrainingService.AssemblyInfo.cs
+C:\Users\Admin\source\repos\MOD.API\MOD.TrainingService\obj\Debug\netcoreapp2.1\MOD.TrainingService.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.TrainingService\obj\Debug\netcoreapp2.1\MOD.TrainingService.dll
+C:\Users\Admin\source\repos\MOD.API\MOD.TrainingService\obj\Debug\netcoreapp2.1\MOD.TrainingService.pdb
+C:\Users\Admin\source\repos\MOD.API\MOD.TrainingService\bin\Debug\netcoreapp2.1\nlog.config

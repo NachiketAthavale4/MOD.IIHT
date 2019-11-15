@@ -1,0 +1,417 @@
+2019-11-14 00:39:00.4747|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-14 00:39:02.5502|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/api/user  
+2019-11-14 00:39:02.5604|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/api/user  
+2019-11-14 00:39:02.7536|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.UserService.Models.User]] Get() on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 00:39:02.7536|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.UserService.Models.User]] Get() on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 00:39:04.5283|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.UserService.Controllers.UserController.Get (MOD.UserService) - Validation state: Valid
+2019-11-14 00:39:04.5283|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.UserService.Controllers.UserController.Get (MOD.UserService) - Validation state: Valid
+2019-11-14 00:39:05.3113|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 00:39:05.3113|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 00:39:05.5020|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (42ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Active], [u].[ConfirmedSignUp], [u].[ContactNumber], [u].[FirstName], [u].[LastName], [u].[LinkedInUrl], [u].[Password], [u].[RegistrationCode], [u].[ResetPassword], [u].[ResetPasswordDate], [u].[Role], [u].[UserName], [u].[YearsOfExperience]
+FROM [User] AS [u]
+2019-11-14 00:39:05.5020|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (42ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Active], [u].[ConfirmedSignUp], [u].[ContactNumber], [u].[FirstName], [u].[LastName], [u].[LinkedInUrl], [u].[Password], [u].[RegistrationCode], [u].[ResetPassword], [u].[ResetPasswordDate], [u].[Role], [u].[UserName], [u].[YearsOfExperience]
+FROM [User] AS [u]
+2019-11-14 00:39:05.5590|INFO|MOD.UserService.Controllers.UserController|SuccessIndicator = true
+2019-11-14 00:39:05.5590|INFO|MOD.UserService.Controllers.UserController|SuccessIndicator = true
+2019-11-14 00:39:05.5590|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.UserService.Controllers.UserController.Get (MOD.UserService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1031.3746ms.
+2019-11-14 00:39:05.5590|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.UserService.Controllers.UserController.Get (MOD.UserService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1031.3746ms.
+2019-11-14 00:39:05.5767|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.UserService.Models.UserResponse'.
+2019-11-14 00:39:05.5767|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.UserService.Models.UserResponse'.
+2019-11-14 00:39:05.6520|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Get (MOD.UserService) in 2891.354ms
+2019-11-14 00:39:05.6520|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Get (MOD.UserService) in 2891.354ms
+2019-11-14 00:39:05.6520|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3114.0114ms 200 application/json; charset=utf-8
+2019-11-14 00:39:05.6662|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3114.0114ms 200 application/json; charset=utf-8
+2019-11-14 00:39:05.6891|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/favicon.ico  
+2019-11-14 00:39:05.6891|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/favicon.ico  
+2019-11-14 00:39:05.6891|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.0691ms 404 
+2019-11-14 00:39:05.6891|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.0691ms 404 
+2019-11-14 18:02:44.4780|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-14 18:02:46.3110|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/api/user  
+2019-11-14 18:02:46.3110|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/api/user  
+2019-11-14 18:02:46.4856|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.UserService.Models.User]] Get() on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:02:46.4856|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.UserService.Models.User]] Get() on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:02:48.2251|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.UserService.Controllers.UserController.Get (MOD.UserService) - Validation state: Valid
+2019-11-14 18:02:48.2251|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.UserService.Controllers.UserController.Get (MOD.UserService) - Validation state: Valid
+2019-11-14 18:02:48.5134|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 18:02:48.5134|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 18:02:48.7032|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Active], [u].[ConfirmedSignUp], [u].[ContactNumber], [u].[FirstName], [u].[LastName], [u].[LinkedInUrl], [u].[Password], [u].[RegistrationCode], [u].[ResetPassword], [u].[ResetPasswordDate], [u].[Role], [u].[UserName], [u].[YearsOfExperience]
+FROM [User] AS [u]
+2019-11-14 18:02:48.7032|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Active], [u].[ConfirmedSignUp], [u].[ContactNumber], [u].[FirstName], [u].[LastName], [u].[LinkedInUrl], [u].[Password], [u].[RegistrationCode], [u].[ResetPassword], [u].[ResetPasswordDate], [u].[Role], [u].[UserName], [u].[YearsOfExperience]
+FROM [User] AS [u]
+2019-11-14 18:02:48.7665|INFO|MOD.UserService.Controllers.UserController|SuccessIndicator = true
+2019-11-14 18:02:48.7665|INFO|MOD.UserService.Controllers.UserController|SuccessIndicator = true
+2019-11-14 18:02:48.7736|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.UserService.Controllers.UserController.Get (MOD.UserService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 542.1917ms.
+2019-11-14 18:02:48.7736|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.UserService.Controllers.UserController.Get (MOD.UserService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 542.1917ms.
+2019-11-14 18:02:48.7736|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.UserService.Models.UserResponse'.
+2019-11-14 18:02:48.7736|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.UserService.Models.UserResponse'.
+2019-11-14 18:02:48.8236|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Get (MOD.UserService) in 2329.0992ms
+2019-11-14 18:02:48.8236|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Get (MOD.UserService) in 2329.0992ms
+2019-11-14 18:02:48.8236|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2521.7999ms 200 application/json; charset=utf-8
+2019-11-14 18:02:48.8236|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2521.7999ms 200 application/json; charset=utf-8
+2019-11-14 18:02:48.8617|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/favicon.ico  
+2019-11-14 18:02:48.8617|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/favicon.ico  
+2019-11-14 18:02:48.8617|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.995ms 404 
+2019-11-14 18:02:48.8681|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.995ms 404 
+2019-11-14 18:40:12.7902|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-14 18:40:13.8642|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/api/user  
+2019-11-14 18:40:13.8701|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/api/user  
+2019-11-14 18:40:14.1421|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.UserService.Models.User]] Get() on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:40:14.1421|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.UserService.Models.User]] Get() on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:40:14.1546|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-14 18:40:14.1546|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-14 18:40:14.1546|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-14 18:40:14.1546|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-14 18:40:14.1671|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-14 18:40:14.1671|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-14 18:40:14.1671|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-14 18:40:14.1671|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-14 18:40:14.1824|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Get (MOD.UserService) in 35.041ms
+2019-11-14 18:40:14.1824|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Get (MOD.UserService) in 35.041ms
+2019-11-14 18:40:14.2050|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 334.085ms 401 
+2019-11-14 18:40:14.2050|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 334.085ms 401 
+2019-11-14 18:40:14.3855|FATAL|Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor|An error occurred starting the application
+2019-11-14 18:40:14.3855|FATAL|Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor|An error occurred starting the application
+2019-11-14 18:40:20.7046|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/api/user  
+2019-11-14 18:40:20.7046|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/api/user  
+2019-11-14 18:40:20.7121|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.UserService.Models.User]] Get() on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:40:20.7121|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.UserService.Models.User]] Get() on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:40:20.7121|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-14 18:40:20.7121|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-14 18:40:20.7121|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-14 18:40:20.7121|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-14 18:40:20.7121|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-14 18:40:20.7276|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-14 18:40:20.7276|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-14 18:40:20.7276|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-14 18:40:20.7276|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Get (MOD.UserService) in 21.9199ms
+2019-11-14 18:40:20.7276|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Get (MOD.UserService) in 21.9199ms
+2019-11-14 18:40:20.7451|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 37.717ms 401 
+2019-11-14 18:40:20.7451|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 37.717ms 401 
+2019-11-14 18:42:08.9083|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5002/api/user application/json 48
+2019-11-14 18:42:08.9083|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5002/api/user application/json 48
+2019-11-14 18:42:08.9901|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:42:08.9901|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:42:09.0215|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(MOD.UserService.Models.User) on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:42:09.0215|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(MOD.UserService.Models.User) on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:42:09.0251|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-14 18:42:09.0251|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-14 18:42:13.9912|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Post (MOD.UserService) in 4964.7603ms
+2019-11-14 18:42:13.9925|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Post (MOD.UserService) in 4964.7603ms
+2019-11-14 18:42:13.9925|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2019-11-14 18:42:14.0080|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2019-11-14 18:42:14.0590|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5148.5666ms 500 text/html; charset=utf-8
+2019-11-14 18:42:14.0590|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5148.5666ms 500 text/html; charset=utf-8
+2019-11-14 18:42:26.3825|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5002/api/user application/json 48
+2019-11-14 18:42:26.3841|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5002/api/user application/json 48
+2019-11-14 18:42:26.3841|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:42:26.3994|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:42:26.3994|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(MOD.UserService.Models.User) on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:42:26.3994|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(MOD.UserService.Models.User) on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:42:26.4155|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-14 18:42:26.4155|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-14 18:42:42.7076|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Post (MOD.UserService) in 16293.0538ms
+2019-11-14 18:42:42.7114|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Post (MOD.UserService) in 16293.0538ms
+2019-11-14 18:42:42.7316|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2019-11-14 18:42:42.7316|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2019-11-14 18:42:42.7435|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16358.6249ms 500 text/html; charset=utf-8
+2019-11-14 18:42:42.7435|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16358.6249ms 500 text/html; charset=utf-8
+2019-11-14 18:43:09.2650|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5002/api/user application/json 290
+2019-11-14 18:43:09.2745|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5002/api/user application/json 290
+2019-11-14 18:43:09.2745|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:43:09.2922|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:43:09.2922|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(MOD.UserService.Models.User) on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:43:09.2922|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(MOD.UserService.Models.User) on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:43:09.2922|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-14 18:43:09.2922|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-14 18:43:14.3528|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.UserService.Controllers.UserController.Post (MOD.UserService) - Validation state: Valid
+2019-11-14 18:43:14.3528|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.UserService.Controllers.UserController.Post (MOD.UserService) - Validation state: Valid
+2019-11-14 18:43:14.4937|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 18:43:14.4937|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 18:43:14.6849|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (29ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int64), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (Size = 50) (DbType = AnsiString), @p5='?' (Size = 150) (DbType = AnsiString), @p6='?' (Size = 180) (DbType = AnsiString), @p7='?' (Size = 180) (DbType = AnsiString), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTime2), @p10='?' (Size = 1) (DbType = AnsiString), @p11='?' (Size = 50) (DbType = AnsiString), @p12='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [User] ([Active], [ConfirmedSignUp], [ContactNumber], [FirstName], [LastName], [LinkedInUrl], [Password], [RegistrationCode], [ResetPassword], [ResetPasswordDate], [Role], [UserName], [YearsOfExperience])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+SELECT [Id]
+FROM [User]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2019-11-14 18:43:14.6849|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (29ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int64), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (Size = 50) (DbType = AnsiString), @p5='?' (Size = 150) (DbType = AnsiString), @p6='?' (Size = 180) (DbType = AnsiString), @p7='?' (Size = 180) (DbType = AnsiString), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTime2), @p10='?' (Size = 1) (DbType = AnsiString), @p11='?' (Size = 50) (DbType = AnsiString), @p12='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [User] ([Active], [ConfirmedSignUp], [ContactNumber], [FirstName], [LastName], [LinkedInUrl], [Password], [RegistrationCode], [ResetPassword], [ResetPasswordDate], [Role], [UserName], [YearsOfExperience])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+SELECT [Id]
+FROM [User]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2019-11-14 18:43:14.7049|INFO|MOD.UserService.Controllers.UserController|SuccessIndicator = true
+2019-11-14 18:43:14.7049|INFO|MOD.UserService.Controllers.UserController|SuccessIndicator = true
+2019-11-14 18:43:14.7148|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.UserService.Controllers.UserController.Post (MOD.UserService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 352.4756ms.
+2019-11-14 18:43:14.7148|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.UserService.Controllers.UserController.Post (MOD.UserService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 352.4756ms.
+2019-11-14 18:43:14.7148|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.UserService.Models.UserResponse'.
+2019-11-14 18:43:14.7148|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.UserService.Models.UserResponse'.
+2019-11-14 18:43:14.7414|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Post (MOD.UserService) in 5437.0203ms
+2019-11-14 18:43:14.7414|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Post (MOD.UserService) in 5437.0203ms
+2019-11-14 18:43:14.7487|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5493.5061ms 200 application/json; charset=utf-8
+2019-11-14 18:43:14.7487|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5493.5061ms 200 application/json; charset=utf-8
+2019-11-14 18:43:36.8407|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5002/api/user/1 application/json 290
+2019-11-14 18:43:36.8659|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5002/api/user/1 application/json 290
+2019-11-14 18:43:36.8772|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:43:36.8772|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:43:36.8844|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 43.9064ms 404 
+2019-11-14 18:43:36.8844|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 43.9064ms 404 
+2019-11-14 18:43:36.8844|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR90FU5JKL0", Request id "0HLR90FU5JKL0:00000004": the application completed without reading the entire request body.
+2019-11-14 18:43:36.8844|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR90FU5JKL0", Request id "0HLR90FU5JKL0:00000004": the application completed without reading the entire request body.
+2019-11-14 18:43:41.2387|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5002/api/user/2 application/json 290
+2019-11-14 18:43:41.2530|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5002/api/user/2 application/json 290
+2019-11-14 18:43:41.2530|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:43:41.2530|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:43:41.2663|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 25.9831ms 404 
+2019-11-14 18:43:41.2663|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 25.9831ms 404 
+2019-11-14 18:43:41.2663|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR90FU5JKL0", Request id "0HLR90FU5JKL0:00000005": the application completed without reading the entire request body.
+2019-11-14 18:43:41.2663|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR90FU5JKL0", Request id "0HLR90FU5JKL0:00000005": the application completed without reading the entire request body.
+2019-11-14 18:44:03.3953|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/api/user/2 application/json 290
+2019-11-14 18:44:03.3982|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/api/user/2 application/json 290
+2019-11-14 18:44:03.3982|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:44:03.3982|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:44:03.4189|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.UserService.Models.User] Get(Int32) on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:44:03.4189|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.UserService.Models.User] Get(Int32) on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:44:03.4189|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-14 18:44:03.4189|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-14 18:44:05.4116|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.UserService.Controllers.UserController.Get (MOD.UserService) - Validation state: Valid
+2019-11-14 18:44:05.4116|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.UserService.Controllers.UserController.Get (MOD.UserService) - Validation state: Valid
+2019-11-14 18:44:05.4247|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 18:44:05.4247|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 18:44:05.5452|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (20ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Active], [e].[ConfirmedSignUp], [e].[ContactNumber], [e].[FirstName], [e].[LastName], [e].[LinkedInUrl], [e].[Password], [e].[RegistrationCode], [e].[ResetPassword], [e].[ResetPasswordDate], [e].[Role], [e].[UserName], [e].[YearsOfExperience]
+FROM [User] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2019-11-14 18:44:05.5452|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (20ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Active], [e].[ConfirmedSignUp], [e].[ContactNumber], [e].[FirstName], [e].[LastName], [e].[LinkedInUrl], [e].[Password], [e].[RegistrationCode], [e].[ResetPassword], [e].[ResetPasswordDate], [e].[Role], [e].[UserName], [e].[YearsOfExperience]
+FROM [User] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2019-11-14 18:44:05.5647|INFO|MOD.UserService.Controllers.UserController|SuccessIndicator = true
+2019-11-14 18:44:05.5647|INFO|MOD.UserService.Controllers.UserController|SuccessIndicator = true
+2019-11-14 18:44:05.5647|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.UserService.Controllers.UserController.Get (MOD.UserService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 153.1442ms.
+2019-11-14 18:44:05.5647|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.UserService.Controllers.UserController.Get (MOD.UserService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 153.1442ms.
+2019-11-14 18:44:05.5731|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.UserService.Models.UserResponse'.
+2019-11-14 18:44:05.5731|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.UserService.Models.UserResponse'.
+2019-11-14 18:44:05.5731|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Get (MOD.UserService) in 2154.3212ms
+2019-11-14 18:44:05.5731|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Get (MOD.UserService) in 2154.3212ms
+2019-11-14 18:44:05.5731|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2186.4813ms 200 application/json; charset=utf-8
+2019-11-14 18:44:05.5731|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2186.4813ms 200 application/json; charset=utf-8
+2019-11-14 18:44:05.5871|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR90FU5JKL0", Request id "0HLR90FU5JKL0:00000006": the application completed without reading the entire request body.
+2019-11-14 18:44:05.5871|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR90FU5JKL0", Request id "0HLR90FU5JKL0:00000006": the application completed without reading the entire request body.
+2019-11-14 18:44:23.7463|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/api/user/2 application/json 290
+2019-11-14 18:44:23.7463|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/api/user/2 application/json 290
+2019-11-14 18:44:23.7717|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Failed to validate the token.
+2019-11-14 18:44:23.7717|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Failed to validate the token.
+2019-11-14 18:44:23.7756|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Bearer was not authenticated. Failure message: IDX12729: Unable to decode the header 'ayJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9' as Base64Url encoded string. jwtEncodedString: 'ayJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqb2huRG9lMzIiLCJleHAiOjE1NzM3NDA2NzcsImlzcyI6ImlpaHQuY29tIiwiYXVkIjoidHJhaW5lZXMifQ.CuVaGlgCNuSs3hJbt1M2vDr5GNWyd_YZWXT6l4-gkEk'.
+2019-11-14 18:44:23.7756|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Bearer was not authenticated. Failure message: IDX12729: Unable to decode the header 'ayJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9' as Base64Url encoded string. jwtEncodedString: 'ayJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqb2huRG9lMzIiLCJleHAiOjE1NzM3NDA2NzcsImlzcyI6ImlpaHQuY29tIiwiYXVkIjoidHJhaW5lZXMifQ.CuVaGlgCNuSs3hJbt1M2vDr5GNWyd_YZWXT6l4-gkEk'.
+2019-11-14 18:44:23.7756|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.UserService.Models.User] Get(Int32) on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:44:23.7756|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.UserService.Models.User] Get(Int32) on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:44:23.7756|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-14 18:44:23.7756|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-14 18:44:23.7756|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-14 18:44:23.7756|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-14 18:44:23.7899|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-14 18:44:23.7899|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-14 18:44:23.7899|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-14 18:44:23.7899|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-14 18:44:23.7899|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Get (MOD.UserService) in 14.3406ms
+2019-11-14 18:44:23.7899|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Get (MOD.UserService) in 14.3406ms
+2019-11-14 18:44:23.7899|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 54.204ms 401 
+2019-11-14 18:44:23.7899|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 54.204ms 401 
+2019-11-14 18:44:23.8084|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR90FU5JKL0", Request id "0HLR90FU5JKL0:00000007": the application completed without reading the entire request body.
+2019-11-14 18:44:23.8084|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR90FU5JKL0", Request id "0HLR90FU5JKL0:00000007": the application completed without reading the entire request body.
+2019-11-14 18:44:34.1166|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/api/user/2 application/json 290
+2019-11-14 18:44:34.1180|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/api/user/2 application/json 290
+2019-11-14 18:44:34.1180|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:44:34.1180|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:44:34.1180|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.UserService.Models.User] Get(Int32) on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:44:34.1180|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.UserService.Models.User] Get(Int32) on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:44:34.1180|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-14 18:44:34.1329|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-14 18:44:35.5350|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.UserService.Controllers.UserController.Get (MOD.UserService) - Validation state: Valid
+2019-11-14 18:44:35.5350|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.UserService.Controllers.UserController.Get (MOD.UserService) - Validation state: Valid
+2019-11-14 18:44:35.5428|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 18:44:35.5428|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 18:44:35.5649|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (17ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Active], [e].[ConfirmedSignUp], [e].[ContactNumber], [e].[FirstName], [e].[LastName], [e].[LinkedInUrl], [e].[Password], [e].[RegistrationCode], [e].[ResetPassword], [e].[ResetPasswordDate], [e].[Role], [e].[UserName], [e].[YearsOfExperience]
+FROM [User] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2019-11-14 18:44:35.5649|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (17ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Active], [e].[ConfirmedSignUp], [e].[ContactNumber], [e].[FirstName], [e].[LastName], [e].[LinkedInUrl], [e].[Password], [e].[RegistrationCode], [e].[ResetPassword], [e].[ResetPasswordDate], [e].[Role], [e].[UserName], [e].[YearsOfExperience]
+FROM [User] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2019-11-14 18:44:35.5649|INFO|MOD.UserService.Controllers.UserController|SuccessIndicator = true
+2019-11-14 18:44:35.5649|INFO|MOD.UserService.Controllers.UserController|SuccessIndicator = true
+2019-11-14 18:44:35.5722|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.UserService.Controllers.UserController.Get (MOD.UserService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 33.9984ms.
+2019-11-14 18:44:35.5722|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.UserService.Controllers.UserController.Get (MOD.UserService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 33.9984ms.
+2019-11-14 18:44:35.5722|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.UserService.Models.UserResponse'.
+2019-11-14 18:44:35.5722|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.UserService.Models.UserResponse'.
+2019-11-14 18:44:35.5722|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Get (MOD.UserService) in 1448.8942ms
+2019-11-14 18:44:35.5722|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Get (MOD.UserService) in 1448.8942ms
+2019-11-14 18:44:35.5722|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1465.8347ms 200 application/json; charset=utf-8
+2019-11-14 18:44:35.5722|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1465.8347ms 200 application/json; charset=utf-8
+2019-11-14 18:44:35.5886|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR90FU5JKL0", Request id "0HLR90FU5JKL0:00000008": the application completed without reading the entire request body.
+2019-11-14 18:44:35.5886|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR90FU5JKL0", Request id "0HLR90FU5JKL0:00000008": the application completed without reading the entire request body.
+2019-11-14 18:51:28.0987|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-14 18:51:28.6844|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/api/user  
+2019-11-14 18:51:28.6844|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/api/user  
+2019-11-14 18:51:28.9299|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.UserService.Models.User]] Get() on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:51:28.9299|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.UserService.Models.User]] Get() on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:51:28.9299|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-14 18:51:28.9461|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-14 18:51:28.9461|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-14 18:51:28.9461|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-14 18:51:28.9461|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-14 18:51:28.9461|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-14 18:51:28.9640|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-14 18:51:28.9640|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-14 18:51:28.9640|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Get (MOD.UserService) in 34.6347ms
+2019-11-14 18:51:28.9640|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Get (MOD.UserService) in 34.6347ms
+2019-11-14 18:51:28.9867|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 303.2432ms 401 
+2019-11-14 18:51:28.9867|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 303.2432ms 401 
+2019-11-14 18:51:29.7948|FATAL|Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor|An error occurred starting the application
+2019-11-14 18:51:29.7948|FATAL|Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor|An error occurred starting the application
+2019-11-14 18:51:40.5204|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5002/api/user/ application/json 290
+2019-11-14 18:51:40.5204|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5002/api/user/ application/json 290
+2019-11-14 18:51:40.5883|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:51:40.5883|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:51:40.6053|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(MOD.UserService.Models.User) on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:51:40.6053|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(MOD.UserService.Models.User) on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:51:40.6053|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-14 18:51:40.6053|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-14 18:51:42.8264|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2019-11-14 18:51:42.8264|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2019-11-14 18:51:42.8403|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Post (MOD.UserService) in 2229.3812ms
+2019-11-14 18:51:42.8403|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Post (MOD.UserService) in 2229.3812ms
+2019-11-14 18:51:42.8694|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2326.7591ms 400 application/json; charset=utf-8
+2019-11-14 18:51:42.8694|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2326.7591ms 400 application/json; charset=utf-8
+2019-11-14 18:52:20.4673|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5002/api/user/ application/json 290
+2019-11-14 18:52:20.4673|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5002/api/user/ application/json 290
+2019-11-14 18:52:20.4875|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:52:20.4875|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:52:20.4976|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(MOD.UserService.Models.User) on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:52:20.4976|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(MOD.UserService.Models.User) on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:52:20.4976|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-14 18:52:20.4976|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-14 18:52:22.3689|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2019-11-14 18:52:22.3689|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2019-11-14 18:52:22.3689|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Post (MOD.UserService) in 1870.8711ms
+2019-11-14 18:52:22.3689|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Post (MOD.UserService) in 1870.8711ms
+2019-11-14 18:52:22.3689|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1910.4746ms 400 application/json; charset=utf-8
+2019-11-14 18:52:22.3689|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1910.4746ms 400 application/json; charset=utf-8
+2019-11-14 18:53:01.7734|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-14 18:53:02.3669|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/api/user  
+2019-11-14 18:53:02.3833|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5002/api/user  
+2019-11-14 18:53:02.6181|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.UserService.Models.User]] Get() on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:53:02.6181|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.UserService.Models.User]] Get() on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:53:02.6181|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-14 18:53:02.6331|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-14 18:53:02.6331|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-14 18:53:02.6331|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-14 18:53:02.6331|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-14 18:53:02.6331|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-14 18:53:02.6511|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-14 18:53:02.6511|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-14 18:53:02.6511|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Get (MOD.UserService) in 31.6988ms
+2019-11-14 18:53:02.6511|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Get (MOD.UserService) in 31.6988ms
+2019-11-14 18:53:02.6698|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 303.0877ms 401 
+2019-11-14 18:53:02.6698|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 303.0877ms 401 
+2019-11-14 18:53:03.4186|FATAL|Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor|An error occurred starting the application
+2019-11-14 18:53:03.4186|FATAL|Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor|An error occurred starting the application
+2019-11-14 18:53:06.4699|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5002/api/user/ application/json 290
+2019-11-14 18:53:06.4699|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5002/api/user/ application/json 290
+2019-11-14 18:53:06.6132|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:53:06.6132|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 18:53:06.6267|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(MOD.UserService.Models.User) on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:53:06.6267|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(MOD.UserService.Models.User) on controller MOD.UserService.Controllers.UserController (MOD.UserService).
+2019-11-14 18:53:06.6515|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-14 18:53:06.6515|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-14 18:53:11.2431|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.UserService.Controllers.UserController.Post (MOD.UserService) - Validation state: Valid
+2019-11-14 18:53:11.2431|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.UserService.Controllers.UserController.Post (MOD.UserService) - Validation state: Valid
+2019-11-14 18:53:11.3964|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 18:53:11.3964|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 18:53:11.6376|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (46ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int64), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (Size = 50) (DbType = AnsiString), @p5='?' (Size = 150) (DbType = AnsiString), @p6='?' (Size = 180) (DbType = AnsiString), @p7='?' (Size = 180) (DbType = AnsiString), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTime2), @p10='?' (Size = 1) (DbType = AnsiString), @p11='?' (Size = 50) (DbType = AnsiString), @p12='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [User] ([Active], [ConfirmedSignUp], [ContactNumber], [FirstName], [LastName], [LinkedInUrl], [Password], [RegistrationCode], [ResetPassword], [ResetPasswordDate], [Role], [UserName], [YearsOfExperience])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+SELECT [Id]
+FROM [User]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2019-11-14 18:53:11.6376|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (46ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int64), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (Size = 50) (DbType = AnsiString), @p5='?' (Size = 150) (DbType = AnsiString), @p6='?' (Size = 180) (DbType = AnsiString), @p7='?' (Size = 180) (DbType = AnsiString), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTime2), @p10='?' (Size = 1) (DbType = AnsiString), @p11='?' (Size = 50) (DbType = AnsiString), @p12='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [User] ([Active], [ConfirmedSignUp], [ContactNumber], [FirstName], [LastName], [LinkedInUrl], [Password], [RegistrationCode], [ResetPassword], [ResetPasswordDate], [Role], [UserName], [YearsOfExperience])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+SELECT [Id]
+FROM [User]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2019-11-14 18:53:11.6493|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'MOD.UserService.Contexts.UserContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Cannot insert duplicate key row in object 'dbo.User' with unique index 'IX_User_UserName'. The duplicate key value is (johnDoe32).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2019-11-14 18:53:11.6493|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'MOD.UserService.Contexts.UserContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Cannot insert duplicate key row in object 'dbo.User' with unique index 'IX_User_UserName'. The duplicate key value is (johnDoe32).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2019-11-14 18:53:11.7432|ERROR|MOD.UserService.Controllers.UserController|An error occurred while updating the entries. See the inner exception for details.
+2019-11-14 18:53:11.7432|ERROR|MOD.UserService.Controllers.UserController|An error occurred while updating the entries. See the inner exception for details.
+2019-11-14 18:53:11.7432|INFO|MOD.UserService.Controllers.UserController|sucessIndicator = false
+2019-11-14 18:53:11.7432|INFO|MOD.UserService.Controllers.UserController|sucessIndicator = false
+2019-11-14 18:53:11.7641|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.UserService.Controllers.UserController.Post (MOD.UserService), returned result MOD.UserService.Helpers.InternalServerErrorObjectResult in 509.1943ms.
+2019-11-14 18:53:11.7641|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.UserService.Controllers.UserController.Post (MOD.UserService), returned result MOD.UserService.Helpers.InternalServerErrorObjectResult in 509.1943ms.
+2019-11-14 18:53:11.7758|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.UserService.Models.UserResponse'.
+2019-11-14 18:53:11.7758|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.UserService.Models.UserResponse'.
+2019-11-14 18:53:11.7950|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Post (MOD.UserService) in 5163.3398ms
+2019-11-14 18:53:11.7950|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.UserService.Controllers.UserController.Post (MOD.UserService) in 5163.3398ms
+2019-11-14 18:53:11.7950|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5333.5657ms 500 application/json; charset=utf-8
+2019-11-14 18:53:11.7950|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5333.5657ms 500 application/json; charset=utf-8

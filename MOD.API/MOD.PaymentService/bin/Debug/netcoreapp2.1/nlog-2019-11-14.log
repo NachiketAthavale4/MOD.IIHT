@@ -1,0 +1,190 @@
+2019-11-14 01:13:47.6268|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-14 01:13:48.4364|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:49691/  0
+2019-11-14 01:13:48.4364|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49691/api/payment  
+2019-11-14 01:13:48.4364|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:49691/  0
+2019-11-14 01:13:48.4364|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49691/api/payment  
+2019-11-14 01:13:48.4856|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 47.6923ms 200 
+2019-11-14 01:13:48.4856|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 47.6923ms 200 
+2019-11-14 01:13:48.6432|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Payment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.PaymentService.Models.Payment]] Get() on controller MOD.PaymentService.Controllers.PaymentController (MOD.PaymentService).
+2019-11-14 01:13:48.6432|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Payment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.PaymentService.Models.Payment]] Get() on controller MOD.PaymentService.Controllers.PaymentController (MOD.PaymentService).
+2019-11-14 01:13:48.7999|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService) - Validation state: Valid
+2019-11-14 01:13:48.7999|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService) - Validation state: Valid
+2019-11-14 01:13:52.2613|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'PaymentContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 01:13:52.2613|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'PaymentContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 01:13:52.4487|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Amount], [p].[MentorId], [p].[MentorName], [p].[Remarks], [p].[SkillName], [p].[TotalAmountToMentor], [p].[TrainingId], [p].[TxtType]
+FROM [Payment] AS [p]
+2019-11-14 01:13:52.4487|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Amount], [p].[MentorId], [p].[MentorName], [p].[Remarks], [p].[SkillName], [p].[TotalAmountToMentor], [p].[TrainingId], [p].[TxtType]
+FROM [Payment] AS [p]
+2019-11-14 01:13:52.4682|INFO|MOD.PaymentService.Controllers.PaymentController|SuccessIndicator = true
+2019-11-14 01:13:52.4682|INFO|MOD.PaymentService.Controllers.PaymentController|SuccessIndicator = true
+2019-11-14 01:13:52.4788|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3668.0936ms.
+2019-11-14 01:13:52.4788|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3668.0936ms.
+2019-11-14 01:13:52.4788|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.PaymentService.Models.PaymentResponse'.
+2019-11-14 01:13:52.4788|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.PaymentService.Models.PaymentResponse'.
+2019-11-14 01:13:52.5447|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService) in 3894.5927ms
+2019-11-14 01:13:52.5447|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService) in 3894.5927ms
+2019-11-14 01:13:52.5447|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4119.8087ms 200 application/json; charset=utf-8
+2019-11-14 01:13:52.5447|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4119.8087ms 200 application/json; charset=utf-8
+2019-11-14 01:13:52.5789|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49691/favicon.ico  
+2019-11-14 01:13:52.5789|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49691/favicon.ico  
+2019-11-14 01:13:52.5789|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.4289ms 404 
+2019-11-14 01:13:52.5789|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.4289ms 404 
+2019-11-14 18:16:48.9214|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-14 18:16:49.5794|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49691/api/payment  
+2019-11-14 18:16:49.5868|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49691/api/payment  
+2019-11-14 18:16:49.5794|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:49691/  0
+2019-11-14 18:16:49.5868|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:49691/  0
+2019-11-14 18:16:49.6242|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 45.2916ms 200 
+2019-11-14 18:16:49.6242|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 45.2916ms 200 
+2019-11-14 18:16:49.7966|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Payment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.PaymentService.Models.Payment]] Get() on controller MOD.PaymentService.Controllers.PaymentController (MOD.PaymentService).
+2019-11-14 18:16:49.7966|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Payment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.PaymentService.Models.Payment]] Get() on controller MOD.PaymentService.Controllers.PaymentController (MOD.PaymentService).
+2019-11-14 18:16:49.9415|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService) - Validation state: Valid
+2019-11-14 18:16:49.9415|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService) - Validation state: Valid
+2019-11-14 18:16:52.3137|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'PaymentContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 18:16:52.3137|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'PaymentContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 18:16:52.5053|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Amount], [p].[MentorId], [p].[MentorName], [p].[Remarks], [p].[SkillName], [p].[TotalAmountToMentor], [p].[TrainingId], [p].[TxtType]
+FROM [Payment] AS [p]
+2019-11-14 18:16:52.5053|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Amount], [p].[MentorId], [p].[MentorName], [p].[Remarks], [p].[SkillName], [p].[TotalAmountToMentor], [p].[TrainingId], [p].[TxtType]
+FROM [Payment] AS [p]
+2019-11-14 18:16:52.5229|INFO|MOD.PaymentService.Controllers.PaymentController|SuccessIndicator = true
+2019-11-14 18:16:52.5238|INFO|MOD.PaymentService.Controllers.PaymentController|SuccessIndicator = true
+2019-11-14 18:16:52.5238|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2581.6655ms.
+2019-11-14 18:16:52.5238|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2581.6655ms.
+2019-11-14 18:16:52.5385|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.PaymentService.Models.PaymentResponse'.
+2019-11-14 18:16:52.5385|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.PaymentService.Models.PaymentResponse'.
+2019-11-14 18:16:52.5565|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService) in 2750.6171ms
+2019-11-14 18:16:52.5565|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService) in 2750.6171ms
+2019-11-14 18:16:52.5716|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2992.4976ms 200 application/json; charset=utf-8
+2019-11-14 18:16:52.5716|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2992.4976ms 200 application/json; charset=utf-8
+2019-11-14 18:16:52.5716|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49691/favicon.ico  
+2019-11-14 18:16:52.5858|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49691/favicon.ico  
+2019-11-14 18:16:52.5858|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.0931ms 404 
+2019-11-14 18:16:52.5858|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.0931ms 404 
+2019-11-14 18:17:32.0844|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:37208/  
+2019-11-14 18:17:32.0886|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:37208/  
+2019-11-14 18:17:32.0886|ERROR|Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware|'MS-ASPNETCORE-TOKEN' does not match the expected pairing token 'b6e6109f-e426-47f2-b2bb-9fd177bd0ca8', request rejected.
+2019-11-14 18:17:32.1027|ERROR|Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware|'MS-ASPNETCORE-TOKEN' does not match the expected pairing token 'b6e6109f-e426-47f2-b2bb-9fd177bd0ca8', request rejected.
+2019-11-14 18:17:32.1027|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 23.079ms 400 
+2019-11-14 18:17:32.1027|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 23.079ms 400 
+2019-11-14 18:17:40.6773|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:37208/api/payment  
+2019-11-14 18:17:40.6773|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:37208/api/payment  
+2019-11-14 18:17:40.6838|ERROR|Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware|'MS-ASPNETCORE-TOKEN' does not match the expected pairing token 'b6e6109f-e426-47f2-b2bb-9fd177bd0ca8', request rejected.
+2019-11-14 18:17:40.6838|ERROR|Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware|'MS-ASPNETCORE-TOKEN' does not match the expected pairing token 'b6e6109f-e426-47f2-b2bb-9fd177bd0ca8', request rejected.
+2019-11-14 18:17:40.6838|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.6411ms 400 
+2019-11-14 18:17:40.6968|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.6411ms 400 
+2019-11-14 18:17:42.9032|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:37208/api/payment  
+2019-11-14 18:17:42.9032|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:37208/api/payment  
+2019-11-14 18:17:42.9032|ERROR|Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware|'MS-ASPNETCORE-TOKEN' does not match the expected pairing token 'b6e6109f-e426-47f2-b2bb-9fd177bd0ca8', request rejected.
+2019-11-14 18:17:42.9142|ERROR|Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware|'MS-ASPNETCORE-TOKEN' does not match the expected pairing token 'b6e6109f-e426-47f2-b2bb-9fd177bd0ca8', request rejected.
+2019-11-14 18:17:42.9371|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21.4886ms 400 
+2019-11-14 18:17:42.9371|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21.4886ms 400 
+2019-11-14 18:18:00.4773|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-14 18:18:02.3175|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5004/api/payment  
+2019-11-14 18:18:02.3237|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5004/api/payment  
+2019-11-14 18:18:02.4977|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Payment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.PaymentService.Models.Payment]] Get() on controller MOD.PaymentService.Controllers.PaymentController (MOD.PaymentService).
+2019-11-14 18:18:02.4977|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Payment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.PaymentService.Models.Payment]] Get() on controller MOD.PaymentService.Controllers.PaymentController (MOD.PaymentService).
+2019-11-14 18:18:02.6459|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService) - Validation state: Valid
+2019-11-14 18:18:02.6459|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService) - Validation state: Valid
+2019-11-14 18:18:03.8788|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'PaymentContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 18:18:03.8788|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'PaymentContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 18:18:04.0569|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (30ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Amount], [p].[MentorId], [p].[MentorName], [p].[Remarks], [p].[SkillName], [p].[TotalAmountToMentor], [p].[TrainingId], [p].[TxtType]
+FROM [Payment] AS [p]
+2019-11-14 18:18:04.0569|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (30ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Amount], [p].[MentorId], [p].[MentorName], [p].[Remarks], [p].[SkillName], [p].[TotalAmountToMentor], [p].[TrainingId], [p].[TxtType]
+FROM [Payment] AS [p]
+2019-11-14 18:18:04.0743|INFO|MOD.PaymentService.Controllers.PaymentController|SuccessIndicator = true
+2019-11-14 18:18:04.0743|INFO|MOD.PaymentService.Controllers.PaymentController|SuccessIndicator = true
+2019-11-14 18:18:04.0743|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1428.538ms.
+2019-11-14 18:18:04.0743|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1428.538ms.
+2019-11-14 18:18:04.0955|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.PaymentService.Models.PaymentResponse'.
+2019-11-14 18:18:04.0955|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.PaymentService.Models.PaymentResponse'.
+2019-11-14 18:18:04.1316|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService) in 1619.8823ms
+2019-11-14 18:18:04.1316|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService) in 1619.8823ms
+2019-11-14 18:18:04.1421|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1826.0659ms 200 application/json; charset=utf-8
+2019-11-14 18:18:04.1421|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1826.0659ms 200 application/json; charset=utf-8
+2019-11-14 18:18:04.1536|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5004/favicon.ico  
+2019-11-14 18:18:04.1536|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5004/favicon.ico  
+2019-11-14 18:18:04.1536|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.7498ms 404 
+2019-11-14 18:18:04.1536|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.7498ms 404 
+2019-11-14 18:47:44.3590|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'PaymentContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 18:47:59.3454|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'PaymentContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 18:47:59.4350|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2019-11-14 18:47:59.4350|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2019-11-14 18:47:59.4350|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-11-14 18:47:59.4460|INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20191114131744_UserUnique'.
+2019-11-14 18:47:59.4884|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_User_UserName] ON [User] ([UserName]);
+2019-11-14 18:49:55.2316|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'PaymentContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 18:49:55.3258|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2019-11-14 18:49:55.3258|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2019-11-14 18:49:55.3258|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-11-14 18:49:55.3375|INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20191114131744_UserUnique'.
+2019-11-14 18:49:55.3375|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_User_UserName] ON [User] ([UserName]);
+2019-11-14 18:49:55.3518|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20191114131744_UserUnique', N'2.1.11-servicing-32099');
+2019-11-14 19:07:31.9008|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-14 19:07:32.7259|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5004/api/payment  
+2019-11-14 19:07:32.7349|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5004/api/payment  
+2019-11-14 19:07:32.9671|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Payment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.PaymentService.Models.Payment]] Get() on controller MOD.PaymentService.Controllers.PaymentController (MOD.PaymentService).
+2019-11-14 19:07:32.9671|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Payment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.PaymentService.Models.Payment]] Get() on controller MOD.PaymentService.Controllers.PaymentController (MOD.PaymentService).
+2019-11-14 19:07:32.9799|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-14 19:07:32.9799|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-14 19:07:32.9799|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-14 19:07:32.9799|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-14 19:07:32.9799|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-14 19:07:32.9799|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-14 19:07:32.9969|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-14 19:07:32.9969|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-14 19:07:32.9969|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService) in 29.3238ms
+2019-11-14 19:07:32.9969|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService) in 29.3238ms
+2019-11-14 19:07:33.0169|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 289.9123ms 401 
+2019-11-14 19:07:33.0169|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 289.9123ms 401 
+2019-11-14 19:07:33.5201|FATAL|Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor|An error occurred starting the application
+2019-11-14 19:07:33.5201|FATAL|Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor|An error occurred starting the application
+2019-11-14 19:07:39.1451|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5004/api/payment application/json 48
+2019-11-14 19:07:39.1451|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5004/api/payment application/json 48
+2019-11-14 19:07:39.2197|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 19:07:39.2197|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-14 19:07:39.2197|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Payment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.PaymentService.Models.Payment]] Get() on controller MOD.PaymentService.Controllers.PaymentController (MOD.PaymentService).
+2019-11-14 19:07:39.2197|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Payment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.PaymentService.Models.Payment]] Get() on controller MOD.PaymentService.Controllers.PaymentController (MOD.PaymentService).
+2019-11-14 19:07:39.2318|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-14 19:07:39.2318|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-14 19:07:39.3687|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService) - Validation state: Valid
+2019-11-14 19:07:39.3687|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService) - Validation state: Valid
+2019-11-14 19:07:42.7950|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'PaymentContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 19:07:42.7950|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'PaymentContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-14 19:07:42.9810|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (24ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Amount], [p].[MentorId], [p].[MentorName], [p].[Remarks], [p].[SkillName], [p].[TotalAmountToMentor], [p].[TrainingId], [p].[TxtType]
+FROM [Payment] AS [p]
+2019-11-14 19:07:42.9810|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (24ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Amount], [p].[MentorId], [p].[MentorName], [p].[Remarks], [p].[SkillName], [p].[TotalAmountToMentor], [p].[TrainingId], [p].[TxtType]
+FROM [Payment] AS [p]
+2019-11-14 19:07:43.0035|INFO|MOD.PaymentService.Controllers.PaymentController|SuccessIndicator = true
+2019-11-14 19:07:43.0035|INFO|MOD.PaymentService.Controllers.PaymentController|SuccessIndicator = true
+2019-11-14 19:07:43.0121|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3634.0176ms.
+2019-11-14 19:07:43.0121|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3634.0176ms.
+2019-11-14 19:07:43.0121|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.PaymentService.Models.PaymentResponse'.
+2019-11-14 19:07:43.0121|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.PaymentService.Models.PaymentResponse'.
+2019-11-14 19:07:43.0398|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService) in 3809.5276ms
+2019-11-14 19:07:43.0398|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.PaymentService.Controllers.PaymentController.Get (MOD.PaymentService) in 3809.5276ms
+2019-11-14 19:07:43.0398|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3899.4277ms 200 application/json; charset=utf-8
+2019-11-14 19:07:43.0398|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3899.4277ms 200 application/json; charset=utf-8
+2019-11-14 19:07:43.0622|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR90V6JFG8A", Request id "0HLR90V6JFG8A:00000001": the application completed without reading the entire request body.
+2019-11-14 19:07:43.0622|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR90V6JFG8A", Request id "0HLR90V6JFG8A:00000001": the application completed without reading the entire request body.

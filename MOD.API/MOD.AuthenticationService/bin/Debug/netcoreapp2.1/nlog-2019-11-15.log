@@ -1,0 +1,103 @@
+2019-11-15 00:26:00.0937|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-15 00:26:20.2898|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5001/api/authentication application/json 48
+2019-11-15 00:26:20.2978|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5001/api/authentication application/json 48
+2019-11-15 00:26:20.3995|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "UserLoginAsync", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserLoginAsync(MOD.AuthenticationService.Models.User) on controller MOD.AuthenticationService.Controllers.AuthenticationController (MOD.AuthenticationService).
+2019-11-15 00:26:20.3995|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "UserLoginAsync", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserLoginAsync(MOD.AuthenticationService.Models.User) on controller MOD.AuthenticationService.Controllers.AuthenticationController (MOD.AuthenticationService).
+2019-11-15 00:26:20.5177|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.AuthenticationService.Controllers.AuthenticationController.UserLoginAsync (MOD.AuthenticationService) - Validation state: Valid
+2019-11-15 00:26:20.5177|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.AuthenticationService.Controllers.AuthenticationController.UserLoginAsync (MOD.AuthenticationService) - Validation state: Valid
+2019-11-15 00:26:20.6639|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-15 00:26:20.6639|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-15 00:26:20.7240|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'where [usr].UserName.Equals(__user_UserName_0, OrdinalIgnoreCase)' could not be translated and will be evaluated locally.
+2019-11-15 00:26:20.7240|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'where [usr].UserName.Equals(__user_UserName_0, OrdinalIgnoreCase)' could not be translated and will be evaluated locally.
+2019-11-15 00:26:20.7240|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+2019-11-15 00:26:20.7240|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+2019-11-15 00:26:20.8240|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [usr].[Id], [usr].[Active], [usr].[ConfirmedSignUp], [usr].[ContactNumber], [usr].[FirstName], [usr].[LastName], [usr].[LinkedInUrl], [usr].[Password], [usr].[RegistrationCode], [usr].[ResetPassword], [usr].[ResetPasswordDate], [usr].[Role], [usr].[UserName], [usr].[YearsOfExperience]
+FROM [User] AS [usr]
+2019-11-15 00:26:20.8240|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [usr].[Id], [usr].[Active], [usr].[ConfirmedSignUp], [usr].[ContactNumber], [usr].[FirstName], [usr].[LastName], [usr].[LinkedInUrl], [usr].[Password], [usr].[RegistrationCode], [usr].[ResetPassword], [usr].[ResetPasswordDate], [usr].[Role], [usr].[UserName], [usr].[YearsOfExperience]
+FROM [User] AS [usr]
+2019-11-15 00:26:20.8920|INFO|MOD.AuthenticationService.Controllers.AuthenticationController|SuccessIndicator = true
+2019-11-15 00:26:20.8920|INFO|MOD.AuthenticationService.Controllers.AuthenticationController|SuccessIndicator = true
+2019-11-15 00:26:20.8920|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.AuthenticationService.Controllers.AuthenticationController.UserLoginAsync (MOD.AuthenticationService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 374.6772ms.
+2019-11-15 00:26:20.8920|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.AuthenticationService.Controllers.AuthenticationController.UserLoginAsync (MOD.AuthenticationService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 374.6772ms.
+2019-11-15 00:26:20.9067|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.AuthenticationService.Models.AuthenticationResponse'.
+2019-11-15 00:26:20.9067|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.AuthenticationService.Models.AuthenticationResponse'.
+2019-11-15 00:26:20.9067|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.AuthenticationService.Controllers.AuthenticationController.UserLoginAsync (MOD.AuthenticationService) in 515.407ms
+2019-11-15 00:26:20.9067|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.AuthenticationService.Controllers.AuthenticationController.UserLoginAsync (MOD.AuthenticationService) in 515.407ms
+2019-11-15 00:26:20.9275|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 637.8261ms 200 application/json; charset=utf-8
+2019-11-15 00:26:20.9275|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 637.8261ms 200 application/json; charset=utf-8
+2019-11-15 01:26:09.8428|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-15 01:26:11.9781|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5001/api/authentication  
+2019-11-15 01:26:11.9781|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5001/api/authentication  
+2019-11-15 01:26:12.1437|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 164.5478ms 404 
+2019-11-15 01:26:12.1437|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 164.5478ms 404 
+2019-11-15 01:29:35.7143|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5001/api/authentication/ application/json 48
+2019-11-15 01:29:35.7143|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5001/api/authentication/ application/json 48
+2019-11-15 01:29:35.7599|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "UserLoginAsync", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserLoginAsync(MOD.AuthenticationService.Models.User) on controller MOD.AuthenticationService.Controllers.AuthenticationController (MOD.AuthenticationService).
+2019-11-15 01:29:35.7599|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "UserLoginAsync", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserLoginAsync(MOD.AuthenticationService.Models.User) on controller MOD.AuthenticationService.Controllers.AuthenticationController (MOD.AuthenticationService).
+2019-11-15 01:29:38.0772|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.AuthenticationService.Controllers.AuthenticationController.UserLoginAsync (MOD.AuthenticationService) - Validation state: Valid
+2019-11-15 01:29:38.0772|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.AuthenticationService.Controllers.AuthenticationController.UserLoginAsync (MOD.AuthenticationService) - Validation state: Valid
+2019-11-15 01:29:38.9125|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-15 01:29:38.9125|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-15 01:29:38.9843|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'where [usr].UserName.Equals(__user_UserName_0, OrdinalIgnoreCase)' could not be translated and will be evaluated locally.
+2019-11-15 01:29:38.9843|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'where [usr].UserName.Equals(__user_UserName_0, OrdinalIgnoreCase)' could not be translated and will be evaluated locally.
+2019-11-15 01:29:38.9843|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+2019-11-15 01:29:38.9843|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+2019-11-15 01:29:39.1381|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (48ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [usr].[Id], [usr].[Active], [usr].[ConfirmedSignUp], [usr].[ContactNumber], [usr].[FirstName], [usr].[LastName], [usr].[LinkedInUrl], [usr].[Password], [usr].[RegistrationCode], [usr].[ResetPassword], [usr].[ResetPasswordDate], [usr].[Role], [usr].[UserName], [usr].[YearsOfExperience]
+FROM [User] AS [usr]
+2019-11-15 01:29:39.1381|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (48ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [usr].[Id], [usr].[Active], [usr].[ConfirmedSignUp], [usr].[ContactNumber], [usr].[FirstName], [usr].[LastName], [usr].[LinkedInUrl], [usr].[Password], [usr].[RegistrationCode], [usr].[ResetPassword], [usr].[ResetPasswordDate], [usr].[Role], [usr].[UserName], [usr].[YearsOfExperience]
+FROM [User] AS [usr]
+2019-11-15 01:29:39.2192|INFO|MOD.AuthenticationService.Controllers.AuthenticationController|SuccessIndicator = true
+2019-11-15 01:29:39.2192|INFO|MOD.AuthenticationService.Controllers.AuthenticationController|SuccessIndicator = true
+2019-11-15 01:29:39.2192|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.AuthenticationService.Controllers.AuthenticationController.UserLoginAsync (MOD.AuthenticationService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1141.9278ms.
+2019-11-15 01:29:39.2192|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.AuthenticationService.Controllers.AuthenticationController.UserLoginAsync (MOD.AuthenticationService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1141.9278ms.
+2019-11-15 01:29:39.2347|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.AuthenticationService.Models.AuthenticationResponse'.
+2019-11-15 01:29:39.2347|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.AuthenticationService.Models.AuthenticationResponse'.
+2019-11-15 01:29:39.2510|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.AuthenticationService.Controllers.AuthenticationController.UserLoginAsync (MOD.AuthenticationService) in 3485.2629ms
+2019-11-15 01:29:39.2510|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.AuthenticationService.Controllers.AuthenticationController.UserLoginAsync (MOD.AuthenticationService) in 3485.2629ms
+2019-11-15 01:29:39.2510|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3541.6681ms 200 application/json; charset=utf-8
+2019-11-15 01:29:39.2510|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3541.6681ms 200 application/json; charset=utf-8
+2019-11-15 17:58:42.3570|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-15 17:58:43.3193|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5001/api/authentication  
+2019-11-15 17:58:43.3254|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5001/api/authentication  
+2019-11-15 17:58:43.4822|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 163.4549ms 404 
+2019-11-15 17:58:43.4822|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 163.4549ms 404 
+2019-11-15 17:58:44.0582|FATAL|Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor|An error occurred starting the application
+2019-11-15 17:58:44.0582|FATAL|Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor|An error occurred starting the application
+2019-11-15 17:58:52.9080|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5001/api/authentication application/json 48
+2019-11-15 17:58:52.9080|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5001/api/authentication application/json 48
+2019-11-15 17:58:52.9080|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.9806ms 404 
+2019-11-15 17:58:52.9162|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.9806ms 404 
+2019-11-15 17:58:52.9162|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR9OTD3UPBS", Request id "0HLR9OTD3UPBS:00000001": the application completed without reading the entire request body.
+2019-11-15 17:58:52.9162|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR9OTD3UPBS", Request id "0HLR9OTD3UPBS:00000001": the application completed without reading the entire request body.
+2019-11-15 17:58:57.5767|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5001/api/authentication application/json 48
+2019-11-15 17:58:57.5767|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5001/api/authentication application/json 48
+2019-11-15 17:58:57.6160|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "UserLoginAsync", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserLoginAsync(MOD.AuthenticationService.Models.User) on controller MOD.AuthenticationService.Controllers.AuthenticationController (MOD.AuthenticationService).
+2019-11-15 17:58:57.6180|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "UserLoginAsync", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserLoginAsync(MOD.AuthenticationService.Models.User) on controller MOD.AuthenticationService.Controllers.AuthenticationController (MOD.AuthenticationService).
+2019-11-15 17:58:59.4033|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.AuthenticationService.Controllers.AuthenticationController.UserLoginAsync (MOD.AuthenticationService) - Validation state: Valid
+2019-11-15 17:58:59.4033|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.AuthenticationService.Controllers.AuthenticationController.UserLoginAsync (MOD.AuthenticationService) - Validation state: Valid
+2019-11-15 17:58:59.8057|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-15 17:58:59.8057|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-15 17:58:59.8907|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'where [usr].UserName.Equals(__user_UserName_0, OrdinalIgnoreCase)' could not be translated and will be evaluated locally.
+2019-11-15 17:58:59.8907|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'where [usr].UserName.Equals(__user_UserName_0, OrdinalIgnoreCase)' could not be translated and will be evaluated locally.
+2019-11-15 17:58:59.8999|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+2019-11-15 17:58:59.8999|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+2019-11-15 17:59:00.0192|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (31ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [usr].[Id], [usr].[Active], [usr].[ConfirmedSignUp], [usr].[ContactNumber], [usr].[FirstName], [usr].[LastName], [usr].[LinkedInUrl], [usr].[Password], [usr].[RegistrationCode], [usr].[ResetPassword], [usr].[ResetPasswordDate], [usr].[Role], [usr].[UserName], [usr].[YearsOfExperience]
+FROM [User] AS [usr]
+2019-11-15 17:59:00.0192|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (31ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [usr].[Id], [usr].[Active], [usr].[ConfirmedSignUp], [usr].[ContactNumber], [usr].[FirstName], [usr].[LastName], [usr].[LinkedInUrl], [usr].[Password], [usr].[RegistrationCode], [usr].[ResetPassword], [usr].[ResetPasswordDate], [usr].[Role], [usr].[UserName], [usr].[YearsOfExperience]
+FROM [User] AS [usr]
+2019-11-15 17:59:00.1391|INFO|MOD.AuthenticationService.Controllers.AuthenticationController|SuccessIndicator = true
+2019-11-15 17:59:00.1391|INFO|MOD.AuthenticationService.Controllers.AuthenticationController|SuccessIndicator = true
+2019-11-15 17:59:00.1391|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.AuthenticationService.Controllers.AuthenticationController.UserLoginAsync (MOD.AuthenticationService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 736.4754ms.
+2019-11-15 17:59:00.1391|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.AuthenticationService.Controllers.AuthenticationController.UserLoginAsync (MOD.AuthenticationService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 736.4754ms.
+2019-11-15 17:59:00.1623|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.AuthenticationService.Models.AuthenticationResponse'.
+2019-11-15 17:59:00.1623|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.AuthenticationService.Models.AuthenticationResponse'.
+2019-11-15 17:59:00.1881|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.AuthenticationService.Controllers.AuthenticationController.UserLoginAsync (MOD.AuthenticationService) in 2563.1825ms
+2019-11-15 17:59:00.1881|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.AuthenticationService.Controllers.AuthenticationController.UserLoginAsync (MOD.AuthenticationService) in 2563.1825ms
+2019-11-15 17:59:00.1881|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2616.5823ms 200 application/json; charset=utf-8
+2019-11-15 17:59:00.1969|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2616.5823ms 200 application/json; charset=utf-8

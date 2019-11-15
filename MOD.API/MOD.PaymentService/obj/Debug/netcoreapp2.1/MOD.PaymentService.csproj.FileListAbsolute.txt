@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\MOD.API\MOD.PaymentService\bin\Debug\netcoreapp2.1\MOD.PaymentService.deps.json
+C:\Users\Admin\source\repos\MOD.API\MOD.PaymentService\bin\Debug\netcoreapp2.1\MOD.PaymentService.runtimeconfig.json
+C:\Users\Admin\source\repos\MOD.API\MOD.PaymentService\bin\Debug\netcoreapp2.1\MOD.PaymentService.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\MOD.API\MOD.PaymentService\bin\Debug\netcoreapp2.1\MOD.PaymentService.dll
+C:\Users\Admin\source\repos\MOD.API\MOD.PaymentService\bin\Debug\netcoreapp2.1\MOD.PaymentService.pdb
+C:\Users\Admin\source\repos\MOD.API\MOD.PaymentService\obj\Debug\netcoreapp2.1\MOD.PaymentService.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.PaymentService\obj\Debug\netcoreapp2.1\MOD.PaymentService.RazorAssemblyInfo.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.PaymentService\obj\Debug\netcoreapp2.1\MOD.PaymentService.RazorAssemblyInfo.cs
+C:\Users\Admin\source\repos\MOD.API\MOD.PaymentService\obj\Debug\netcoreapp2.1\MOD.PaymentService.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.PaymentService\obj\Debug\netcoreapp2.1\MOD.PaymentService.AssemblyInfo.cs
+C:\Users\Admin\source\repos\MOD.API\MOD.PaymentService\obj\Debug\netcoreapp2.1\MOD.PaymentService.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\source\repos\MOD.API\MOD.PaymentService\obj\Debug\netcoreapp2.1\MOD.PaymentService.dll
+C:\Users\Admin\source\repos\MOD.API\MOD.PaymentService\obj\Debug\netcoreapp2.1\MOD.PaymentService.pdb
+C:\Users\Admin\source\repos\MOD.API\MOD.PaymentService\bin\Debug\netcoreapp2.1\nlog.config

@@ -1,0 +1,79 @@
+2019-11-15 01:21:58.6861|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-15 01:22:00.6553|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/api/training  
+2019-11-15 01:22:00.6689|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/api/training  
+2019-11-15 01:22:00.8870|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Training"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.TrainingService.Models.Training]] Get() on controller MOD.TrainingService.Controllers.TrainingController (MOD.TrainingService).
+2019-11-15 01:22:00.8870|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Training"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.TrainingService.Models.Training]] Get() on controller MOD.TrainingService.Controllers.TrainingController (MOD.TrainingService).
+2019-11-15 01:22:00.9025|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-15 01:22:00.9025|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2019-11-15 01:22:00.9025|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-15 01:22:00.9025|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-11-15 01:22:00.9163|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-15 01:22:00.9163|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2019-11-15 01:22:00.9163|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-15 01:22:00.9163|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2019-11-15 01:22:00.9318|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TrainingService.Controllers.TrainingController.Get (MOD.TrainingService) in 37.1229ms
+2019-11-15 01:22:00.9318|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TrainingService.Controllers.TrainingController.Get (MOD.TrainingService) in 37.1229ms
+2019-11-15 01:22:00.9474|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 294.0629ms 401 
+2019-11-15 01:22:00.9474|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 294.0629ms 401 
+2019-11-15 01:22:17.6401|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/api/training/ application/json 48
+2019-11-15 01:22:17.6401|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/api/training/ application/json 48
+2019-11-15 01:22:17.6730|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-15 01:22:17.6730|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-15 01:22:17.6730|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Training"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.TrainingService.Models.Training]] Get() on controller MOD.TrainingService.Controllers.TrainingController (MOD.TrainingService).
+2019-11-15 01:22:17.6730|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Training"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MOD.TrainingService.Models.Training]] Get() on controller MOD.TrainingService.Controllers.TrainingController (MOD.TrainingService).
+2019-11-15 01:22:17.6836|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-15 01:22:17.6836|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-15 01:22:23.9712|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.TrainingService.Controllers.TrainingController.Get (MOD.TrainingService) - Validation state: Valid
+2019-11-15 01:22:23.9712|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.TrainingService.Controllers.TrainingController.Get (MOD.TrainingService) - Validation state: Valid
+2019-11-15 01:22:24.6644|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'TrainingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-15 01:22:24.6657|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'TrainingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-15 01:22:24.8560|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (44ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[AmountReceived], [t].[AverageRating], [t].[CommisionAmount], [t].[EndDate], [t].[EndTime], [t].[Fees], [t].[MentorId], [t].[MentorName], [t].[Progress], [t].[Rating], [t].[StartDate], [t].[StartTime], [t].[Status], [t].[TechnologyId], [t].[TechnologyName], [t].[UserId], [t].[UserName]
+FROM [Training] AS [t]
+2019-11-15 01:22:24.8560|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (44ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[AmountReceived], [t].[AverageRating], [t].[CommisionAmount], [t].[EndDate], [t].[EndTime], [t].[Fees], [t].[MentorId], [t].[MentorName], [t].[Progress], [t].[Rating], [t].[StartDate], [t].[StartTime], [t].[Status], [t].[TechnologyId], [t].[TechnologyName], [t].[UserId], [t].[UserName]
+FROM [Training] AS [t]
+2019-11-15 01:22:24.9167|INFO|MOD.TrainingService.Controllers.TrainingController|SuccessIndicator = true
+2019-11-15 01:22:24.9167|INFO|MOD.TrainingService.Controllers.TrainingController|SuccessIndicator = true
+2019-11-15 01:22:24.9167|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.TrainingService.Controllers.TrainingController.Get (MOD.TrainingService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 945.9695ms.
+2019-11-15 01:22:24.9167|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.TrainingService.Controllers.TrainingController.Get (MOD.TrainingService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 945.9695ms.
+2019-11-15 01:22:24.9339|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.TrainingService.Models.TrainingResponse'.
+2019-11-15 01:22:24.9339|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.TrainingService.Models.TrainingResponse'.
+2019-11-15 01:22:24.9546|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TrainingService.Controllers.TrainingController.Get (MOD.TrainingService) in 7271.477ms
+2019-11-15 01:22:24.9546|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TrainingService.Controllers.TrainingController.Get (MOD.TrainingService) in 7271.477ms
+2019-11-15 01:22:24.9546|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7319.5874ms 200 application/json; charset=utf-8
+2019-11-15 01:22:24.9635|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7319.5874ms 200 application/json; charset=utf-8
+2019-11-15 01:22:24.9635|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR97GE85K2I", Request id "0HLR97GE85K2I:00000001": the application completed without reading the entire request body.
+2019-11-15 01:22:24.9635|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR97GE85K2I", Request id "0HLR97GE85K2I:00000001": the application completed without reading the entire request body.
+2019-11-15 01:22:41.8283|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/api/training/1 application/json 48
+2019-11-15 01:22:41.8283|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/api/training/1 application/json 48
+2019-11-15 01:22:41.8452|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-15 01:22:41.8452|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2019-11-15 01:22:41.8621|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Training"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TrainingService.Models.Training] Get(Int32) on controller MOD.TrainingService.Controllers.TrainingController (MOD.TrainingService).
+2019-11-15 01:22:41.8621|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Training"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TrainingService.Models.Training] Get(Int32) on controller MOD.TrainingService.Controllers.TrainingController (MOD.TrainingService).
+2019-11-15 01:22:41.8621|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-15 01:22:41.8621|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2019-11-15 01:22:44.1543|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.TrainingService.Controllers.TrainingController.Get (MOD.TrainingService) - Validation state: Valid
+2019-11-15 01:22:44.1543|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.TrainingService.Controllers.TrainingController.Get (MOD.TrainingService) - Validation state: Valid
+2019-11-15 01:22:44.7127|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'TrainingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-15 01:22:44.7127|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'TrainingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-15 01:22:44.7722|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (26ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AmountReceived], [e].[AverageRating], [e].[CommisionAmount], [e].[EndDate], [e].[EndTime], [e].[Fees], [e].[MentorId], [e].[MentorName], [e].[Progress], [e].[Rating], [e].[StartDate], [e].[StartTime], [e].[Status], [e].[TechnologyId], [e].[TechnologyName], [e].[UserId], [e].[UserName]
+FROM [Training] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2019-11-15 01:22:44.7722|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (26ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AmountReceived], [e].[AverageRating], [e].[CommisionAmount], [e].[EndDate], [e].[EndTime], [e].[Fees], [e].[MentorId], [e].[MentorName], [e].[Progress], [e].[Rating], [e].[StartDate], [e].[StartTime], [e].[Status], [e].[TechnologyId], [e].[TechnologyName], [e].[UserId], [e].[UserName]
+FROM [Training] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2019-11-15 01:22:44.7831|INFO|MOD.TrainingService.Controllers.TrainingController|SuccessIndicator = true
+2019-11-15 01:22:44.7831|INFO|MOD.TrainingService.Controllers.TrainingController|SuccessIndicator = true
+2019-11-15 01:22:44.7831|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.TrainingService.Controllers.TrainingController.Get (MOD.TrainingService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 627.7583ms.
+2019-11-15 01:22:44.7831|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.TrainingService.Controllers.TrainingController.Get (MOD.TrainingService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 627.7583ms.
+2019-11-15 01:22:44.7831|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.TrainingService.Models.TrainingResponse'.
+2019-11-15 01:22:44.7911|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.TrainingService.Models.TrainingResponse'.
+2019-11-15 01:22:44.7911|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TrainingService.Controllers.TrainingController.Get (MOD.TrainingService) in 2928.1155ms
+2019-11-15 01:22:44.7911|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TrainingService.Controllers.TrainingController.Get (MOD.TrainingService) in 2928.1155ms
+2019-11-15 01:22:44.7911|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2971.7841ms 200 application/json; charset=utf-8
+2019-11-15 01:22:44.7911|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2971.7841ms 200 application/json; charset=utf-8
+2019-11-15 01:22:44.7911|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR97GE85K2J", Request id "0HLR97GE85K2J:00000001": the application completed without reading the entire request body.
+2019-11-15 01:22:44.8069|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLR97GE85K2J", Request id "0HLR97GE85K2J:00000001": the application completed without reading the entire request body.

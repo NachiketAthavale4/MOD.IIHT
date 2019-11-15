@@ -1,0 +1,142 @@
+2019-11-13 10:38:33.3766|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 10:38:42.2550|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:49555/  0
+2019-11-13 10:38:42.2550|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49555/api/technology  
+2019-11-13 10:38:42.2613|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:49555/  0
+2019-11-13 10:38:42.2613|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49555/api/technology  
+2019-11-13 10:38:42.3007|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 42.843ms 200 
+2019-11-13 10:38:42.3007|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 42.843ms 200 
+2019-11-13 10:38:42.4362|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-13 10:38:42.4362|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-13 10:38:43.6152|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) - Validation state: Valid
+2019-11-13 10:38:43.6152|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) - Validation state: Valid
+2019-11-13 10:38:46.5861|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'TechnologyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-13 10:38:46.5861|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'TechnologyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-13 10:38:46.7499|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name], [t].[Prerequisites], [t].[Toc]
+FROM [Technologies] AS [t]
+2019-11-13 10:38:46.7499|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name], [t].[Prerequisites], [t].[Toc]
+FROM [Technologies] AS [t]
+2019-11-13 10:38:48.8989|INFO|MOD.TechnologyService.Controllers.TechnologyController|SuccessIndicator = true
+2019-11-13 10:38:48.8989|INFO|MOD.TechnologyService.Controllers.TechnologyController|SuccessIndicator = true
+2019-11-13 10:38:49.9808|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6358.4269ms.
+2019-11-13 10:38:49.9808|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6358.4269ms.
+2019-11-13 10:38:49.9808|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.TechnologyService.Models.TechnologyResponse'.
+2019-11-13 10:38:49.9808|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.TechnologyService.Models.TechnologyResponse'.
+2019-11-13 10:38:50.0392|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 7596.3717ms
+2019-11-13 10:38:50.0392|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 7596.3717ms
+2019-11-13 10:38:50.0481|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7798.0129ms 200 application/json; charset=utf-8
+2019-11-13 10:38:50.0481|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7798.0129ms 200 application/json; charset=utf-8
+2019-11-13 10:38:50.0737|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49555/favicon.ico  
+2019-11-13 10:38:50.0737|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49555/favicon.ico  
+2019-11-13 10:38:50.0737|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.15ms 404 
+2019-11-13 10:38:50.0737|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.15ms 404 
+2019-11-13 23:43:24.0103|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 23:43:26.2354|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology  
+2019-11-13 23:43:26.2354|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/api/technology  
+2019-11-13 23:43:26.4246|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-13 23:43:26.4246|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MOD.TechnologyService.Models.TechnologyResponse] Get() on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-13 23:43:28.7675|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) - Validation state: Valid
+2019-11-13 23:43:28.7675|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) - Validation state: Valid
+2019-11-13 23:43:29.4657|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'TechnologyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-13 23:43:29.4657|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'TechnologyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-13 23:43:29.6569|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (36ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name], [t].[Prerequisites], [t].[Toc]
+FROM [Technologies] AS [t]
+2019-11-13 23:43:29.6569|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (36ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name], [t].[Prerequisites], [t].[Toc]
+FROM [Technologies] AS [t]
+2019-11-13 23:43:29.6994|INFO|MOD.TechnologyService.Controllers.TechnologyController|SuccessIndicator = true
+2019-11-13 23:43:29.6994|INFO|MOD.TechnologyService.Controllers.TechnologyController|SuccessIndicator = true
+2019-11-13 23:43:29.6994|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 932.2747ms.
+2019-11-13 23:43:29.6994|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 932.2747ms.
+2019-11-13 23:43:29.7222|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.TechnologyService.Models.TechnologyResponse'.
+2019-11-13 23:43:29.7222|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.TechnologyService.Models.TechnologyResponse'.
+2019-11-13 23:43:29.7997|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 3367.223ms
+2019-11-13 23:43:29.7997|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Get (MOD.TechnologyService) in 3367.223ms
+2019-11-13 23:43:29.8065|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3571.394ms 200 application/json; charset=utf-8
+2019-11-13 23:43:29.8065|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3571.394ms 200 application/json; charset=utf-8
+2019-11-13 23:43:29.8373|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/favicon.ico  
+2019-11-13 23:43:29.8373|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5003/favicon.ico  
+2019-11-13 23:43:29.8373|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.2474ms 404 
+2019-11-13 23:43:29.8373|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.2474ms 404 
+2019-11-13 23:44:08.7391|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5003/api/technology application/json 87
+2019-11-13 23:44:08.7391|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5003/api/technology application/json 87
+2019-11-13 23:44:08.7610|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(MOD.TechnologyService.Models.Technology) on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-13 23:44:08.7610|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Technology"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(MOD.TechnologyService.Models.Technology) on controller MOD.TechnologyService.Controllers.TechnologyController (MOD.TechnologyService).
+2019-11-13 23:44:13.5132|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.TechnologyService.Controllers.TechnologyController.Post (MOD.TechnologyService) - Validation state: Valid
+2019-11-13 23:44:13.5132|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MOD.TechnologyService.Controllers.TechnologyController.Post (MOD.TechnologyService) - Validation state: Valid
+2019-11-13 23:44:19.2119|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'TechnologyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-13 23:44:19.2135|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'TechnologyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-13 23:44:19.2854|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (21ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 30) (DbType = AnsiString), @p2='?' (Size = 30) (DbType = AnsiString), @p3='?' (Size = 50) (DbType = AnsiString)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Technologies] ([Id], [Name], [Prerequisites], [Toc])
+VALUES (@p0, @p1, @p2, @p3);
+2019-11-13 23:44:19.2854|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (21ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 30) (DbType = AnsiString), @p2='?' (Size = 30) (DbType = AnsiString), @p3='?' (Size = 50) (DbType = AnsiString)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Technologies] ([Id], [Name], [Prerequisites], [Toc])
+VALUES (@p0, @p1, @p2, @p3);
+2019-11-13 23:44:19.2950|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'MOD.TechnologyService.Contexts.TechnologyContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Cannot insert explicit value for identity column in table 'Technologies' when IDENTITY_INSERT is set to OFF.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2019-11-13 23:44:19.2950|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'MOD.TechnologyService.Contexts.TechnologyContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Cannot insert explicit value for identity column in table 'Technologies' when IDENTITY_INSERT is set to OFF.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2019-11-13 23:44:32.8336|ERROR|MOD.TechnologyService.Controllers.TechnologyController|An error occurred while updating the entries. See the inner exception for details.
+2019-11-13 23:44:32.8336|ERROR|MOD.TechnologyService.Controllers.TechnologyController|An error occurred while updating the entries. See the inner exception for details.
+2019-11-13 23:44:33.3661|INFO|MOD.TechnologyService.Controllers.TechnologyController|sucessIndicator = false
+2019-11-13 23:44:33.3661|INFO|MOD.TechnologyService.Controllers.TechnologyController|sucessIndicator = false
+2019-11-13 23:44:37.2042|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.TechnologyService.Controllers.TechnologyController.Post (MOD.TechnologyService), returned result MOD.TechnologyService.Helpers.InternalServerErrorObjectResult in 23685.7589ms.
+2019-11-13 23:44:37.2042|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MOD.TechnologyService.Controllers.TechnologyController.Post (MOD.TechnologyService), returned result MOD.TechnologyService.Helpers.InternalServerErrorObjectResult in 23685.7589ms.
+2019-11-13 23:44:37.2042|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.TechnologyService.Models.TechnologyResponse'.
+2019-11-13 23:44:37.2042|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MOD.TechnologyService.Models.TechnologyResponse'.
+2019-11-13 23:44:38.6241|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Post (MOD.TechnologyService) in 29857.8848ms
+2019-11-13 23:44:38.6241|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MOD.TechnologyService.Controllers.TechnologyController.Post (MOD.TechnologyService) in 29857.8848ms
+2019-11-13 23:44:38.6349|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 29890.4253ms 500 application/json; charset=utf-8
+2019-11-13 23:44:38.6349|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 29890.4253ms 500 application/json; charset=utf-8
